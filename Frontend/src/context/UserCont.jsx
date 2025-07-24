@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom'; // ✅ Import for route detectio
 export const UserDataContext = createContext();
 
 function UserCont({ children }) {
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://virtual-assistant-backend-cy88.onrender.com";
   const [userData, setUserData] = useState(null);
   const [loadingUser, setLoadingUser] = useState(true);
   const [BackendImage, setBackendImage] = useState(null);
