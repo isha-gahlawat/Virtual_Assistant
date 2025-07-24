@@ -4,15 +4,16 @@ dotenv.config()
 
 const sendEmail = async (to, subject, htmlContent) => {
   const transporter = nodemailer.createTransport({
-    service: 'Gmail', 
+     host: 'smtp.sendgrid.net',
+     port: 587,
     auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS
+     user: process.env.SENDGRID_SMTP_USER,
+    pass: process.env.SENDGRID_SMTP_PASS
     }
   });
 
   const mailOptions = {
-    from: `"AI Robo Support" <${process.env.EMAIL_USER}>`,
+    from: `"AI Robo Support" <${process.env.EMAIL_FROM}>`,
     to,
     subject,
     html: htmlContent
