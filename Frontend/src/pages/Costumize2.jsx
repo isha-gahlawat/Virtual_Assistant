@@ -15,6 +15,9 @@ const Costumize2 = () => {
     const[AssistantName,setAssistantName]=useState(userData?.AssistantName || "")
      const [loading,setloading]=useState(false)
      const navigate=useNavigate();
+
+
+
     const handleUpdateAssistant= async()=>{
      try{
        let formData=new FormData()
@@ -27,9 +30,10 @@ const Costumize2 = () => {
             formData.append("imageUrl",SelectedImage)   
        }
        const result= await axios.post(`${serverUrl}/api/user/update`,formData,{withCredentials:true})
-     console.log(result)
-       setUserData(result.data.data)
+       await HandleCurrentUser();
+       console.log(result)
        setloading(false)
+        navigate("/"); 
     }
      catch(error){
        console.log(error)
