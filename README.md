@@ -158,10 +158,10 @@ A AI voice assistant web application built with React, Node.js, Express, MongoDB
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-![Home Page](client/public/screenshots/home.png)
+![Home Page](Frontend/public/home.png)
 
 ### 🗣️ Voice Notes
-![Voice Notes](client/public/screenshots/voice-note.png)
+![Voice Notes](Frontend/public/voice-note.png)
 
 ### ⏰ Alarm Calendar
 ![Alarm Calendar](client/public/screenshots/alarm-calendar.png)
