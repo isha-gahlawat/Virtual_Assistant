@@ -164,26 +164,26 @@ A AI voice assistant web application built with React, Node.js, Express, MongoDB
 ![Voice Notes](Frontend/public/voice-note.png)
 
 ### ⏰ Alarm Calendar
-![Alarm Calendar](client/public/screenshots/alarm-calendar.png)
+![Alarm Calendar](Frontend/public/alarm-calendar.png)
 
 ### 🧠 Assistant Customization
 
 #### • Name Customization
-![Customization - Name](client/public/screenshots/customization-name.png)
+![Customization - Name](Frontend/public/customization-name.png)
 
 #### • Image Customization
-![Customization - Image](client/public/screenshots/customization-image.png)
+![Customization - Image](Frontend/public/customization-image.png)
 
 ### 📜 Voice Command History
-![Voice Command History](client/public/screenshots/history.png)
+![Voice Command History](Frontend/public/history.png)
 
 ### ✉️ Sent Emails View
-![Sent Emails](client/public/screenshots/email.png)
+![Sent Emails](Frontend/public/email.jpg)
 
 ### 🔐 Sign In
-![Sign In](client/public/screenshots/sign-in.png)
+![Sign In](Frontend/public/sign-in.png)
 
 ### 🆕 Sign Up
-![Sign Up](client/public/screenshots/sign-up.png)
+![Sign Up](Frontend/public/sign-up.png)
 
 
