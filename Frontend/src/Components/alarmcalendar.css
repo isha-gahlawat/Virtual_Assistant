@@ -8,10 +8,17 @@ html, body, #root {
   position: relative;
   overflow: visible !important;
   z-index: 1;
+  height: 500px;
+}
+
+
+.calendar-wrapper .react-calendar {
+  height: 100%;
 }
 
 .calendar-wrapper {
-    display: flex;
+  display: flex;
+  height: 450px;
   justify-content: center;
   overflow: visible;
   position: relative;

@@ -144,7 +144,7 @@ const Alarm_cal = () => {
 
   return (
     <div className="calendar-container w-full h-[500px]">
-      <div className="calendar-wrapper  ">
+      <div className="calendar-wrapper h-[450px]  ">
         <Calendar
           key={alarms.length} 
           onClickDay={handleDateClick}
