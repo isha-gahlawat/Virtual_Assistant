@@ -156,34 +156,51 @@ A AI voice assistant web application built with React, Node.js, Express, MongoDB
 ---
 
 ## 🖼️ Screenshots
+## 🖼️ Screenshots
 
-### 🏠 Home Page
-![Home Page](Frontend/public/home.png)
+### 🏠 Home Page  
+<p align="center">
+  <img src="Frontend/public/home.png" width="500" height="300" />
+</p>
 
-### 🗣️ Voice Notes
-![Voice Notes](Frontend/public/voice-note.png)
+### 🗣️ Voice Notes  
+<p align="center">
+  <img src="Frontend/public/voice-note.png" width="500" height="300" />
+</p>
 
-### ⏰ Alarm Calendar
-![Alarm Calendar](Frontend/public/alarm-calendar.png)
+### ⏰ Alarm Calendar  
+<p align="center">
+  <img src="Frontend/public/alarm-calendar.png" width="500" height="300" />
+</p>
 
 ### 🧠 Assistant Customization
 
-#### • Name Customization
-![Customization - Name](Frontend/public/customization-name.png)
+#### • Name Customization  
+<p align="center">
+  <img src="Frontend/public/customization-name.png" width="500" height="300" />
+</p>
 
-#### • Image Customization
-![Customization - Image](Frontend/public/customization-image.png)
+#### • Image Customization  
+<p align="center">
+  <img src="Frontend/public/customization-image.png" width="500" height="300" />
+</p>
 
-### 📜 Voice Command History
-![Voice Command History](Frontend/public/history.png)
+### 📜 Voice Command History  
+<p align="center">
+  <img src="Frontend/public/history.png" width="500" height="300" />
+</p>
 
-### ✉️ Sent Emails View
-![Sent Emails](Frontend/public/email.jpg)
+### ✉️ Sent Emails View  
+<p align="center">
+  <img src="Frontend/public/email.jpg" width="500" height="300" />
+</p>
 
-### 🔐 Sign In
-![Sign In](Frontend/public/sign-in.png)
+### 🔐 Sign In  
+<p align="center">
+  <img src="Frontend/public/sign-in.png" width="500" height="300" />
+</p>
 
-### 🆕 Sign Up
-![Sign Up](Frontend/public/sign-up.png)
-
-
+### 🆕 Sign Up  
+<p align="center">
+  <img src="Frontend/public/sign-up.png" width="500" height="300" />
+</p>
