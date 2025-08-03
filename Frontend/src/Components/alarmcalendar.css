@@ -49,9 +49,9 @@ html, body, #root {
 
 .react-calendar__year-view__months {
   display: grid !important;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns for balance */
-  gap: 10px;
-  padding: 10px;
+  grid-template-columns: repeat(4, 1fr); /* 3 columns for balance */
+  gap: 20px;
+  padding: 20px;
   max-height: 100%; /* prevent overflow */
   box-sizing: border-box;
 }
@@ -61,9 +61,9 @@ html, body, #root {
   display: flex;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 1 / 1; /* keep square shape */
-  font-size: 1.1rem;
-  border-radius: 6px;
+  aspect-ratio: 1 / 1;
+  font-size: 1.5rem;
+  border-radius: 10px;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
