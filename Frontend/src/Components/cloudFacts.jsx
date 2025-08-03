@@ -68,8 +68,8 @@ export default function FactBubbles() {
           className={`transition-all duration-700 ease-in-out transform rounded-xl  border border-white/20 text-white backdrop-blur-md
             ${
               activeBubble === i
-                ? `bg-white/10 w-60 p-4 brightness-110 scale-115 ${shadowColors[i % shadowColors.length]}`
-                : "bg-white/5 w-60 p-4 brightness-90"
+                ? `bg-white/10 w-80 p-4 brightness-110 scale-115 ${shadowColors[i % shadowColors.length]}`
+                : "bg-white/5 w-80 p-4 brightness-90"
             }`}
         >
           <p className="text-sm">{fact}</p>

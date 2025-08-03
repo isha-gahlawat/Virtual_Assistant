@@ -49,7 +49,7 @@ export default function FloatingSuggestion({ aiText, userText }) {
             ${
               activeBubbleIndex === bubbleIndex
                 ? "bg-white/10 w-60 p-4 brightness-110 scale-105"
-                : "bg-white/5 w-12 h-12 brightness-50"
+                : "bg-white/5 w-16 h-12 brightness-50"
             }`}
         >
           {activeBubbleIndex === bubbleIndex && (
