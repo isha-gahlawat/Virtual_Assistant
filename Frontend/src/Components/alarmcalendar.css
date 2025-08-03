@@ -49,24 +49,28 @@ html, body, #root {
 
 .react-calendar__year-view__months {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)) !important;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for balance */
   gap: 10px;
   padding: 10px;
+  max-height: 100%; /* prevent overflow */
+  box-sizing: border-box;
 }
 
 
 .react-calendar__year-view__months__month {
-   width: calc(100% / 4) !important;
-  aspect-ratio: 1 / 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
-  padding: 10px;
-    padding: 0 !important;
-   margin: 0 !important;
-  text-align: center;
+  aspect-ratio: 1 / 1; /* keep square shape */
+  font-size: 1.1rem;
+  border-radius: 6px;
+  width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
+  text-align: center;
+  padding: 4px;
+  margin: 0;
+  white-space: nowrap;
 }
 
 .react-calendar__tile {
