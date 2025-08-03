@@ -289,8 +289,8 @@ const Alarm_cal = () => {
 </AnimatePresence>
       </div>
        <div className='w-full   flex  justify-between '>
-      <button className="min-w-[180px] h-[30px] mt-[50px]  text-black font-semibold bg-white cursor-pointer rounded-full  text-[19px] transition-transform hover:scale-110"onClick={()=>handledeleteCompleteAlarms()}>Remove all Alarms</button>
-      <button className="min-w-[150px] h-[30px] mt-[50px] text-black font-semibold bg-white cursor-pointer rounded-full text-[19px] transition-transform hover:scale-110"onClick={()=>handleDeleteUser()}>Delete User</button>
+      <button className="min-w-[180px] h-[30px] mt-[30px]  text-black font-semibold bg-white cursor-pointer rounded-full  text-[19px] transition-transform hover:scale-110"onClick={()=>handledeleteCompleteAlarms()}>Remove all Alarms</button>
+      <button className="min-w-[150px] h-[30px] mt-[30px] text-black font-semibold bg-white cursor-pointer rounded-full text-[19px] transition-transform hover:scale-110"onClick={()=>handleDeleteUser()}>Delete User</button>
       </div> 
     </div>
     
