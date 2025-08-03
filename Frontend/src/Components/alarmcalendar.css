@@ -18,7 +18,7 @@ html, body, #root {
 
 .calendar-wrapper {
   display: flex;
-  height: 500px;
+  height: 600px;
   width: 500px;
   justify-content: center;
   overflow: visible;
@@ -35,15 +35,20 @@ html, body, #root {
   z-index: 1;
 }
 
+.react-calendar{
+  width:600px !important;
+  height:500px !important
+}
+
 .react-calendar__tile {
-  width: 71px !important;
-  height: 91px !important;
+  width: 80px !important;
+  height: 80px !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  padding: 0 !important;
-  margin: 0 !important;
+  font-size: 2rem;
+  padding: 2px !important;
+  margin: 2px !important;
 }
 
 .react-calendar__tile.alarm-circle {
