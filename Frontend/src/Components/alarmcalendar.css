@@ -50,8 +50,8 @@ html, body, #root {
 .react-calendar__year-view__months {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr); 
-  gap: 20px;
-  padding: 20px;
+  gap: 30px;
+  padding: 30px;
   max-height: 100%; 
   box-sizing: border-box;
 }
@@ -62,13 +62,13 @@ html, body, #root {
   align-items: center;
   justify-content: center;
   aspect-ratio: 1 / 1;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   border-radius: 10px;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
   text-align: center;
-  padding: 4px;
+  padding: 6px;
   margin: 0;
   white-space: nowrap;
 }
@@ -86,15 +86,18 @@ html, body, #root {
 }
 
 .react-calendar__year-view__months__month abbr {
-  width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none; 
+  height: 100%;
+  width: 100%;
+  font-size: inherit;
   font-weight: 500;
-  font-size: inherit;   
+  text-decoration: none;
+  white-space: nowrap;
   color: inherit;
+  box-sizing: border-box;
+  line-height: 1;
 }
 
 .react-calendar__tile.alarm-circle {
