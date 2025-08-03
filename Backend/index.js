@@ -17,14 +17,6 @@ app.use(cors({
     credentials:true
 }))
 
-app.options("*", cors({
-  origin: "https://virtual-assistant-frontend-asf6.onrender.com",
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true
-}));
-
-
 app.use(express.json())
 app.use(cookieParser())
 app.use("/api/auth",authRouter)
