@@ -41,14 +41,14 @@ export default function FloatingSuggestion({ aiText, userText }) {
    if (aiText?.trim() || userText?.trim()) return null;
 
  return (
-    <div className="hidden lg:flex flex-col gap-4 fixed top-1/2 right-40 -translate-y-1/2 z-40 items-end">
+    <div className="hidden lg:flex flex-col gap-4 fixed top-1/2 right-50 -translate-y-1/2 z-40 items-end">
       {[0, 1, 2, 3, 4].map((bubbleIndex) => (
         <div
           key={bubbleIndex}
           className={`transition-all duration-700 ease-in-out transform rounded-xl shadow-xl text-left  border border-white/20 text-white backdrop-blur-md
             ${
               activeBubbleIndex === bubbleIndex
-                ? "bg-white/10 w-60 p-4 brightness-110 scale-105"
+                ? "bg-white/10 w-80 p-4 brightness-110 scale-105"
                 : "bg-white/5 w-16 h-12 brightness-50"
             }`}
         >

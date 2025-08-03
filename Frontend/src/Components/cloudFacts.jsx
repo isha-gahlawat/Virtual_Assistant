@@ -61,7 +61,7 @@ export default function FactBubbles() {
   }, [activeBubble, nextFactIndex]);
 
   return (
-    <div className="hidden lg:flex flex-col gap-4 fixed top-1/2 left-10 -translate-y-1/2 z-40">
+    <div className="hidden lg:flex flex-col gap-4 fixed top-1/2 left-12 -translate-y-1/2 z-40">
       {visibleFacts.map((fact, i) => (
         <div
           key={i}

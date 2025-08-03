@@ -143,10 +143,10 @@ const Alarm_cal = () => {
   };
 
   return (
-    <div className="calendar-container w-full">
+    <div className="calendar-container w-full h-[500px]">
       <div className="calendar-wrapper  ">
         <Calendar
-          key={alarms.length} // ✅ force full re-render on alarm change
+          key={alarms.length} 
           onClickDay={handleDateClick}
           tileClassName={({ date, view }) => {
             if (view !== 'month') return null;

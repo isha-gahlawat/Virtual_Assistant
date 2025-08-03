@@ -77,7 +77,7 @@ function NotePad() {
 return (
   <>
         <h1 className="text-white text-2xl font-bold mb-4">Notes</h1>
-    <div className="relative flex  flex-col h-[300px] w-full max-w-full px-6 py-6">
+    <div className="relative flex  flex-col h-[500px] w-full max-w-full px-6 py-6">
        {notes.length != 0 && <button
         onClick={() => scroll('left')}
         className="absolute left-2 top-[50%] transform -translate-y-1/2 z-10 bg-white/20 p-2 rounded-full hover:bg-white/40 cursor-pointer text-white"

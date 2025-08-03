@@ -385,7 +385,7 @@ const togglePanel = (panel) => {
           </div>
         )}
 
-        <div className="w-[300px] sm:w-[250px] md:w-[300px] h-[400px] sm:h-[350px] md:h-[400px] mt-[30px] flex justify-center items-center flex-col overflow-hidden rounded-3xl shadow-[0_0_30px_rgba(0,255,255,0.5)] transition-transform hover:scale-105">
+        <div className="w-[350px] sm:w-[250px] md:w-[300px] h-[500px] sm:h-[350px] md:h-[400px] mt-[30px] flex justify-center items-center flex-col overflow-hidden rounded-3xl shadow-[0_0_30px_rgba(0,255,255,0.5)] transition-transform hover:scale-105">
           <img
             src={userData?.assistantImage}
             alt="Assistant"
