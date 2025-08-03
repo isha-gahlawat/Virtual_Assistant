@@ -6,6 +6,7 @@ const sendEmail = async (to, subject, htmlContent) => {
   const transporter = nodemailer.createTransport({
      host: 'smtp.sendgrid.net',
      port: 587,
+     secure:false,
     auth: {
      user: process.env.SENDGRID_SMTP_USER,
     pass: process.env.SENDGRID_SMTP_PASS
