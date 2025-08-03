@@ -45,7 +45,6 @@ const signup = async (req, res) => {
     return res.status(201).json({ message: "Signup successful", user: createduser });
 
   } catch (error) {
-    console.error("Signup error:", error);
     return res.status(500).json({ message: `Signup error: ${error.message}` });
   }
 };
@@ -87,7 +86,6 @@ const logout = async (req, res) => {
 
     return res.status(200).json({ message: "Logout successful" });
   } catch (error) {
-    console.error("Logout error:", error);
     return res.status(500).json({ message: `Logout error: ${error.message}` });
   }
 };

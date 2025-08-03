@@ -37,7 +37,6 @@ const deleteAllAlarm = async (req, res) => {
     await Alarm.deleteMany({ user: userId }); 
     res.status(200).json({ message: "All Alarm cleared" });
   } catch (error) {
-    console.error("Error deleting alarms:", error.message);
     res.status(500).json({ message: "Failed to clear alarms" });
   }
 };

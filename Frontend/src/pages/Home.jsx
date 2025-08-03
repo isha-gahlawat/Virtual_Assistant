@@ -103,7 +103,7 @@ const Home = () => {
     utterance.voice = voice;
     console.log("🎤 Using voice:", voice.name);
   } else {
-    console.warn("🚨 No Hindi voice available at all");
+    console.warn(" No Hindi voice available at all");
   }
  
 
