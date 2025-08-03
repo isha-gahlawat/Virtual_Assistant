@@ -7,13 +7,13 @@ const cookieParser = require('cookie-parser');
 const cors=require ('cors');
 const userRouter = require('./routes/user_routes.js');
 
-
-
 const app= express();
 const port=process.env.PORT ||3000;
 
 app.use(cors({
     origin:"https://virtual-assistant-frontend-asf6.onrender.com",
+     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+     allowedHeaders: ["Content-Type", "Authorization"],
     credentials:true
 }))
 
