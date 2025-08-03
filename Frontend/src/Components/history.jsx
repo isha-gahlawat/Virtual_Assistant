@@ -54,7 +54,7 @@ function History() {
 
  return (
     <>
-  <div className='w-full h-[300px] overflow-y-auto rounded pr-[20px] flex flex-col gap-[5px]'>
+  <div className='w-full h-[500px] overflow-y-auto rounded pr-[20px] flex flex-col gap-[5px]'>
   <h1 className='text-white font-semibold text-[19px]'>History</h1>
     {[...userData.history]
   ?.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
@@ -73,7 +73,7 @@ function History() {
     </div>
 ))}
 </div>
-<div className='w-full flex justify-between mt-[10px]'>
+      <div className='w-full flex justify-between mt-[10px]'>
       <button className="min-w-[150px] h-[30px] mt-[10px] text-black font-semibold bg-white cursor-pointer rounded-full  text-[19px] transition-transform hover:scale-110 "onClick={()=>handledeleteCompleteHistory()}>Clear History</button>
       <button className="min-w-[150px] h-[30px] mt-[10px] text-black font-semibold bg-white cursor-pointer rounded-full text-[19px] transition-transform hover:scale-110 "onClick={()=>handleDeleteUser()}>Delete User</button>
       </div> 

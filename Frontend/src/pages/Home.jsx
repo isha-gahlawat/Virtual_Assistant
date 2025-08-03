@@ -88,15 +88,14 @@ const Home = () => {
    const voices = window.speechSynthesis.getVoices();
     let voice = null;
     const gender = selectedGenderRef.current;
-    console.log("✅ Speaking with gender:", gender);
-  if (gender === 'male') {
+    
+     if (gender === 'male') {
     voice = voices.find(v => v.name.toLowerCase().includes("madhur"));
     if (voice) utterance.voice = voice;
-  } else if (gender === 'female') {
+  } else {
      voice = voices.find(v => v.name.toLowerCase().includes("swara"));}
-  
+    
      if (!voice) {
-    // fallback to first Hindi voice
     voice = voices.find(v => v.lang === 'hi-IN');
     console.warn("⚠️ No exact match, using fallback voice:", voice?.name);
   }
@@ -396,6 +395,9 @@ const togglePanel = (panel) => {
 
         <h1 className="text-white font-semibold text-[16px] sm:text-[18px] text-center mt-2">
           Hi! I am {userData?.AssistantName}
+        </h1>
+        <h1 className="text-white font-semibold text-[14px] sm:text-[14px] text-center mt-2">
+         Always take my name to serve you !!
         </h1>
 
         <img
