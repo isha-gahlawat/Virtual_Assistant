@@ -19,6 +19,7 @@ html, body, #root {
 .calendar-wrapper {
   display: flex;
   height: 450px;
+  width: 400px;
   justify-content: center;
   overflow: visible;
   position: relative;
@@ -32,6 +33,17 @@ html, body, #root {
   overflow: visible !important;
   position: relative;
   z-index: 1;
+}
+
+.react-calendar__tile {
+  width: 57px !important;
+  height: 75px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .react-calendar__tile.alarm-circle {
