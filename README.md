@@ -192,15 +192,15 @@ A AI voice assistant web application built with React, Node.js, Express, MongoDB
 
 ### ✉️ Sent Emails View  
 <p align="center">
-  <img src="Frontend/public/email.jpg" width="500" height="300" />
+  <img src="Frontend/public/email.jpg" width="500" height="500" />
 </p>
 
 ### 🔐 Sign In  
 <p align="center">
-  <img src="Frontend/public/sign-in.png" width="500" height="300" />
+  <img src="Frontend/public/sign-in.png" width="500" height="500" />
 </p>
 
 ### 🆕 Sign Up  
 <p align="center">
-  <img src="Frontend/public/sign-up.png" width="500" height="300" />
+  <img src="Frontend/public/sign-up.png" width="500" height="500" />
 </p>
